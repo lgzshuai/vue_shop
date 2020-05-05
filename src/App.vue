@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!-- 路由占位符 -->
-    <router-viwe></router-viwe>
+    <router-view></router-view>
   </div>
 </template>
 
