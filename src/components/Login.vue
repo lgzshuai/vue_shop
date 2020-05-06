@@ -31,8 +31,8 @@ export default {
     return {
       // 登录表单的数据对象
       loginForm: {
-        usename: 'admin',
-        password: '123'
+        username: 'admin',
+        password: '123456'
       },
       // 验证用户名和密码
       loginFormRulse: {
@@ -42,7 +42,7 @@ export default {
         ],
         password: [
           { required: true, message: '请输入登录密码', trigger: 'blur' },
-          { min: 3, max: 15, message: '长度在 3 到 15 个字符', trigger: 'blur' }
+          { min: 6, max: 15, message: '长度在 6 到 15 个字符', trigger: 'blur' }
         ]
       }
     }
@@ -57,8 +57,8 @@ export default {
         // console.log(valid)
         if (!valid) return
         const { data: res } = await this.$http.post('login', this.loginForm)
-        if (res.meta.status !== 200) return this.$message.error('登录失败')
-        this.$message.success('登录成功')
+        if (res.meta.status !== 200) return this.$message.error('登录失败！')
+        this.$message.success('登录成功！')
       })
     }
   }
