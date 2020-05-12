@@ -19,3 +19,6 @@ body,
     margin-top: 15px;
     font-size: 12;
 }
+.el-pagination{
+  margin-top: 15px;
+}
