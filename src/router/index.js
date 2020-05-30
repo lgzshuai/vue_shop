@@ -1,20 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-<<<<<<< HEAD
-import Login from '../components/Login'
-import Home from '../components/Home'
-import Welcome from '../components/welcome'
-import Users from '../components/users/Users'
-import Rights from '../components/power/Rights'
-import Roles from '../components/power/Roles'
-import Cate from '../components/goods/Cate'
-import Params from '../components/goods/Params'
-import GoodsList from '../components/goods/List'
-import Add from '../components/goods/Add'
-import Order from '../components/order/order'
-import Report from '../components/report/Report'
-=======
->>>>>>> report
 
 // import Login from '../components/Login'
 const Login = () => import(/* webpackChunkName: "login_home_welcome" */ '../components/Login')
@@ -40,8 +25,6 @@ const Cate = () => import(/* webpackChunkName: "Cate_Params" */ '../components/g
 // import Params from '../components/goods/Params'
 const Params = () => import(/* webpackChunkName: "Cate_Params" */ '../components/goods/Params')
 
-<<<<<<< HEAD
-=======
 // import GoodsList from '../components/goods/List'
 const GoodsList = () => import(/* webpackChunkName: "GoodsList_Add" */ '../components/goods/List')
 
@@ -56,7 +39,6 @@ const Report = () => import(/* webpackChunkName: "Order_Report" */ '../component
 
 Vue.use(VueRouter)
 
->>>>>>> report
 const router = new VueRouter({
   routes: [
     { path: '/', redirect: '/login' },
