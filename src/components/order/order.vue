@@ -38,7 +38,11 @@
           </template>
         </el-table-column>
         <el-table-column label="操作">
+<<<<<<< HEAD
           <template slot-scope>
+=======
+          <template>
+>>>>>>> report
             <el-button
               type="primary"
               icon="el-icon-edit"

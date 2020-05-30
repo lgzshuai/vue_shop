@@ -1,4 +1,9 @@
 {
   "semi": false,
+<<<<<<< HEAD
   "singleQuote": true
+=======
+  "singleQuote": true,
+  "printWidth": 200
+>>>>>>> report
 }

@@ -1,9 +1,12 @@
 <template>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <div>
     <el-button type="info" @click="logout">退出</el-button>
   </div>
 =======
+=======
+>>>>>>> report
   <el-container class="home-container">
     <!-- 头部 -->
     <el-header>
@@ -67,17 +70,23 @@
       </el-main>
     </el-container>
   </el-container>
+<<<<<<< HEAD
+>>>>>>> report
+=======
 >>>>>>> report
 </template>
 
 <script>
 export default {
 <<<<<<< HEAD
+<<<<<<< HEAD
   methods: {
     logout () {
       window.sessionStorage.clear()
       this.$router.push('/login')
 =======
+=======
+>>>>>>> report
   data() {
     return {
       // 菜单数据
@@ -119,6 +128,9 @@ export default {
     saveNavState(activePath) {
       window.sessionStorage.setItem('activePath', activePath)
       this.activePath = activePath
+<<<<<<< HEAD
+>>>>>>> report
+=======
 >>>>>>> report
     }
   }
@@ -127,7 +139,10 @@ export default {
 
 <style lang="less" scoped>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> report
 .home-container {
   height: 100%;
 }
@@ -168,5 +183,8 @@ export default {
   letter-spacing: 0.2em;
   cursor: pointer;
 }
+<<<<<<< HEAD
+>>>>>>> report
+=======
 >>>>>>> report
 </style>

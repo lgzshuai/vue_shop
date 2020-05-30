@@ -1,11 +1,14 @@
 /* 全局样式表 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 html, body, #app{
     height: 100%;
     margin: 0;
     padding: 0;
 }
 =======
+=======
+>>>>>>> report
 html,
 body,
 #app {
@@ -33,4 +36,7 @@ body,
 .ql-editor {
   min-height: 300px;
 }
+<<<<<<< HEAD
+>>>>>>> report
+=======
 >>>>>>> report

@@ -1,7 +1,10 @@
 import Vue from 'vue'
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Button, Form, FormItem, Input, Message } from 'element-ui'
 =======
+=======
+>>>>>>> report
 import {
   Button,
   Form,
@@ -44,6 +47,9 @@ import {
   Timeline,
   TimelineItem
 } from 'element-ui'
+<<<<<<< HEAD
+>>>>>>> report
+=======
 >>>>>>> report
 
 Vue.use(Button)
@@ -51,8 +57,11 @@ Vue.use(Form)
 Vue.use(FormItem)
 Vue.use(Input)
 <<<<<<< HEAD
+<<<<<<< HEAD
 Vue.prototype.$message = Message
 =======
+=======
+>>>>>>> report
 Vue.use(Container)
 Vue.use(Header)
 Vue.use(Aside)
@@ -89,4 +98,7 @@ Vue.use(Timeline)
 Vue.use(TimelineItem)
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
+<<<<<<< HEAD
+>>>>>>> report
+=======
 >>>>>>> report
